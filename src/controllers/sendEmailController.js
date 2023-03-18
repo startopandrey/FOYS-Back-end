@@ -8,8 +8,8 @@ const sendEmail = async (req, res) => {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "andrey01test@gmail.com",
-      pass: "tlgxijzzuddutrjy",
+      user: "foyb.development@gmail.com",
+      pass: "sdvldalcrbukevyn",
     },
   });
 
