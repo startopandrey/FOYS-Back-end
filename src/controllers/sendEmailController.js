@@ -9,7 +9,7 @@ const sendEmail = async (req, res) => {
     host: "smtp.gmail.com",
     auth: {
       user: "foyb.development@gmail.com",
-      pass: "sdvldalcrbukevyn",
+      pass: "dwstcvocneuzifts",
     },
   });
 
