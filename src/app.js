@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/v1', api);
-app.use('/send', require("./routes/sendEmail"));
+app.use('/send', require("./routes/send"));
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
