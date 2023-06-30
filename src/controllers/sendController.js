@@ -9,7 +9,7 @@ const sendEmail = async (req, res) => {
     host: "smtp.gmail.com",
     auth: {
       user: "foyb.development@gmail.com",
-      pass: "hkkpwqezjjzgwgou",
+      pass: "fztjbmthvkjreijd",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
@@ -20,7 +20,7 @@ const sendEmail = async (req, res) => {
   if (message) {
     try {
       const emailOptions = {
-        from: "andrey01test@gmail.com",
+        from: "foyb.development@gmail.com",
         to: "focusonyoursoftware@gmail.com",
         subject: "NEW PROJECT HAVE BEEN SUBMITED, WAKE UP, BRO ;)",
         html: `<p>Name:${message.name}, Email: ${message.email}, Company: ${message.company}, Message: ${message.message} </p>`,
@@ -52,7 +52,7 @@ const sendCalculation = async (req, res) => {
     host: "smtp.gmail.com",
     auth: {
       user: "foyb.development@gmail.com",
-      pass: "hkkpwqezjjzgwgou",
+      pass: "fztjbmthvkjreijd",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
@@ -63,7 +63,7 @@ const sendCalculation = async (req, res) => {
   if (message) {
     try {
       const emailOptions = {
-        from: "andrey01test@gmail.com",
+        from: "foyb.development@gmail.com",
         to: "focusonyoursoftware@gmail.com",
         subject: "NEW PROJECT HAVE BEEN SUBMITED, WAKE UP, BRO ;)",
         html: `<p>${message}</p>`,
@@ -106,7 +106,7 @@ const sendHire = async (req, res) => {
   if (message) {
     try {
       const emailOptions = {
-        from: "andrey01test@gmail.com",
+        from: "foyb.development@gmail.com",
         to: "focusonyoursoftware@gmail.com",
         subject: "NEW PROJECT HAVE BEEN SUBMITED, WAKE UP, BRO ;)",
         html: `<p>a${message} </p>`,
