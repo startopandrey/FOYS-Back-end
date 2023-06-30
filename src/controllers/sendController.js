@@ -8,8 +8,8 @@ const sendEmail = async (req, res) => {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "foyb.development@gmail.com",
-      pass: "fztjbmthvkjreijd",
+      user: "andrey01test@gmail.com",
+      pass: "fqxrcomrlxmolzht",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
@@ -51,8 +51,8 @@ const sendCalculation = async (req, res) => {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "foyb.development@gmail.com",
-      pass: "fztjbmthvkjreijd",
+      user: "andrey01test@gmail.com",
+      pass: "fqxrcomrlxmolzht",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
@@ -94,8 +94,8 @@ const sendHire = async (req, res) => {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "foyb.development@gmail.com",
-      pass: "dwstcvocneuzifts",
+      user: "andrey01test@gmail.com",
+      pass: "fqxrcomrlxmolzht",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
