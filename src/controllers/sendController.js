@@ -9,7 +9,7 @@ const sendEmail = async (req, res) => {
     host: "smtp.gmail.com",
     auth: {
       user: "foyb.development@gmail.com",
-      pass: "sdvldalcrbukevyn",
+      pass: "hkkpwqezjjzgwgou",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
@@ -52,7 +52,7 @@ const sendCalculation = async (req, res) => {
     host: "smtp.gmail.com",
     auth: {
       user: "foyb.development@gmail.com",
-      pass: "sdvldalcrbukevyn",
+      pass: "hkkpwqezjjzgwgou",
       //  process.env.NODE_ENV == "development"
       //   ? "rlrortswrgnjsvap"
       //   : "sdvldalcrbukevyn",
